@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(249, 243, 228);
+}
+
+.navbar {
+  margin-bottom: 20px;
+  margin: 0%;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.65);
+  float: left;
+
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid;
+
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.navbar h1 {
+  margin-left: 10%;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  float: left
+}
+
+.navbar ul,
+li,
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.nav-items {
+  flex-grow: 1;
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+
+
+}
+
+.nav-item {
+  display: inline;
+  padding-left: 10%;
+  padding-right: 3%;
+}
+
+header {
+  background-image: url(images/bostonpink.webp);
+  background-repeat: no-repeat;
+  background-size: 100dvw;
+  background-position-y: 20%;
+  box-sizing: border-box;
+  width: 100%;
+
+  height: 700px;
+
+}
+
+
+header img {
+  border-radius: 50%;
+  position: relative;
+  top: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  width: 250px;
+  height: 250px;
+  border-width: 10px;
+  border-color: antiquewhite;
+  border-style: solid;
+  /* Add this line to specify the border style */
+  object-fit: cover;
+  z-index: 0;
+}
+
+
+header p {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 100%;
+  display: block;
+  text-align: center;
+
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: #fff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+
+
+}
+
+header .introduction {
+  margin-top: 5%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  border: black;
+}
+
+#homepagecontent {
+  margin-top: 10%;
+  margin-left: 5%;
+
+  width: 50%;
+  max-width: 50dvw;
+  height: 100%;
+  padding: 20px;
+  /* Adjust padding as needed */
+  box-sizing: border-box;
+  /* Include padding in the width */
+}
+
+
+#image-space {
+  min-height: 100dvh;
+  width: 50dvw;
+  height: 100dvh;
+  overflow: hidden;
+  margin-top: 5%;
+  /* Ensure the image doesn't overflow its container */
+}
+
+#image-space img {
+  width: 100%;
+  height: 100%;
+  /* Make the image take up the full height of its container */
+  object-fit: cover;
+  border-top-left-radius: 2em;
+  /* Ensure the full image is displayed */
+}
+
+
+
+
+
+button {
+  margin-top: 10%;
+  background-color: rgb(255, 127, 127);
+  width: 10em;
+  height: 5em;
+  border-radius: 2em;
+  border: none;
+  margin-left: 35%;
+}
